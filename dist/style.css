@@ -18,7 +18,21 @@ a {
 
 #navbar a {
   font-size: 20px;
+  font-weight: 800;
   color: #5bccf6;
+}
+
+#hero h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#hero h1 span {
+  color: #fcde67;
+}
+#hero p {
+  font-size: 22px;
+  line-height: 35px;
+  margin-bottom: 30px;
 }
 
 .normal {
@@ -31,9 +45,23 @@ a {
   outline: none;
   transition: 0.2s;
   border: 1px solid #5bccf6;
-  color: #fcde67;
+  color: #5bccf6;
   font-size: 20px;
   background-color: transparent;
+}
+
+.mod {
+  font-size: 14px;
+  font-weight: 900;
+  padding: 10px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  color: #fff;
+  font-size: 20px;
+  background-color: #5bccf6;
 }
 
 #header {
@@ -125,4 +153,10 @@ footer .install .row img {
 footer .copyright {
   width: 100%;
   text-align: center;
+}
+
+#hero {
+  max-width: 34%;
+  margin: 0 auto;
+  padding: 65px 0 0 0;
 }/*# sourceMappingURL=style.css.map */

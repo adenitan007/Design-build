@@ -2,19 +2,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  width: 65%;
-  margin: 0 auto;
 
   .main-card {
     padding: 10px;
     position: relative;
     img {
-      height: 400pxi;
+      height: 400px;
       max-width: 100%;
     }
 
-    &:hover{
-      p{
+    &:hover {
+      p {
         display: initial;
       }
     }
@@ -32,4 +30,23 @@
       transition: 0.8s ease;
     }
   }
+}
+
+.card-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+
+  img {
+    height: 280px;
+    max-width: 100%;
+  }
+}
+
+.min-card {
+  border: 1px solid #cbcbcb;
+  display: flex;
+  flex-direction: column;
+  width: 376px;
+  height: 500px;
 }

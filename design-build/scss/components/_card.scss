@@ -1,0 +1,14 @@
+#card{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  
+
+
+  .main-card{
+    img{
+      height: auto;
+      width: 400px;
+    }
+  }
+}

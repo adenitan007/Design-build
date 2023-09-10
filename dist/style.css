@@ -35,6 +35,16 @@ a {
   margin-bottom: 30px;
 }
 
+#card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+#card .main-card img {
+  height: auto;
+  width: 400px;
+}
+
 .normal {
   font-size: 14px;
   font-weight: 600;

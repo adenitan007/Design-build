@@ -39,10 +39,12 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  width: 65%;
+  margin: 0 auto;
 }
 #card .main-card img {
-  height: auto;
-  width: 400px;
+  height: 400pxi;
+  max-width: 100%;
 }
 
 .normal {
@@ -169,4 +171,8 @@ footer .copyright {
   max-width: 34%;
   margin: 0 auto;
   padding: 65px 0 0 0;
+}
+
+#card {
+  margin-top: 160px;
 }/*# sourceMappingURL=style.css.map */

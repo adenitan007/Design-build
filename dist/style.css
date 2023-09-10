@@ -42,9 +42,28 @@ a {
   width: 65%;
   margin: 0 auto;
 }
+#card .main-card {
+  padding: 10px;
+  position: relative;
+}
 #card .main-card img {
   height: 400pxi;
   max-width: 100%;
+}
+#card .main-card:hover p {
+  display: initial;
+}
+#card .main-card p {
+  display: none;
+  position: absolute;
+  bottom: 12px;
+  left: 9px;
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 25px;
+  transition: 0.8s ease;
 }
 
 .normal {

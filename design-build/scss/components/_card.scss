@@ -1,16 +1,35 @@
-#card{
-  display:grid;
+#card {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   width: 65%;
   margin: 0 auto;
-  
 
-
-  .main-card{
-    img{
+  .main-card {
+    padding: 10px;
+    position: relative;
+    img {
       height: 400pxi;
       max-width: 100%;
+    }
+
+    &:hover{
+      p{
+        display: initial;
+      }
+    }
+
+    p {
+      display: none;
+      position: absolute;
+      bottom: 12px;
+      left: 9px;
+      background-color: #fff;
+      width: 100%;
+      padding: 20px;
+      font-weight: 600;
+      font-size: 25px;
+      transition: 0.8s ease;
     }
   }
 }

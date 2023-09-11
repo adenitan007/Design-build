@@ -59,6 +59,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin: 50px 0 60px 0;;
 
       .pic {
         img {
@@ -68,15 +69,21 @@
       }
 
       .name {
+        margin-left: 20px;
         h3 {
           font-size: 20px;
         }
         p {
-          font-size: 20px;
-          padding: 0px !important;
+          font-size: 15px;
         }
       }
     }
+  }
+
+
+  .banner-2{
+    // display: grid;
+    // grid-template-columns: 3fr 1fr;
   }
 }
 

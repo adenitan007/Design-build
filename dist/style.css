@@ -79,6 +79,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
+  gap: 20px;
 }
 .card-con img {
   height: 280px;
@@ -179,40 +180,25 @@ a {
 }
 
 footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
 }
-footer .col {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+footer .col h4 {
+  font-size: 22px;
+  font-weight: 600;
   margin-bottom: 20px;
 }
-footer .logo {
-  margin-bottom: 30px;
+footer .col p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
-footer .follow {
-  margin-top: 20px;
-}
-footer .follow i {
-  color: #465b52;
-  padding-right: 4px;
-  cursor: pointer;
-}
-footer .follow i:hover {
-  color: #088178;
-}
-footer .install img {
-  margin: 10px 0 15px 0;
-}
-footer .install .row img {
-  border: 1px solid #088178;
-  border-radius: 6px;
-}
-footer .copyright {
-  width: 100%;
-  text-align: center;
+footer .col a {
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 10px;
+  color: #5bccf6;
 }
 
 #hero {
@@ -227,10 +213,13 @@ footer .copyright {
 
 #content {
   margin-top: 120px;
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #content .sub-content {
   text-align: center;
+  margin-bottom: 75px;
 }
 #content .sub-content h2 {
   font-size: 45px;
@@ -243,6 +232,7 @@ footer .copyright {
 #content-2 {
   display: flex;
   flex-direction: column;
+  margin-top: 75px;
 }
 #content-2 .banner-1 {
   background-color: rgb(255, 255, 234);
@@ -304,4 +294,11 @@ footer .copyright {
 .section-sc {
   width: 65%;
   margin: 0 auto;
+}
+
+.copy-right {
+  margin: 40px 0;
+  align-items: center;
+  font-size: 17px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

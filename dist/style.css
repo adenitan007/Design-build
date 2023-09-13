@@ -246,6 +246,7 @@ footer .copyright {
 }
 #content-2 .banner-1 {
   background-color: rgb(255, 255, 234);
+  margin: 60px 0;
 }
 #content-2 .banner-1 .top h1 {
   text-align: center;
@@ -277,6 +278,29 @@ footer .copyright {
 #content-2 .banner-1 .person .name p {
   font-size: 15px;
 }
+#content-2 .banner-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 80px 60px 50px 0px;
+}
+#content-2 .banner-2 .img2 {
+  width: 70%;
+}
+#content-2 .banner-2 .img2 img {
+  width: 100%;
+}
+#content-2 .banner-2 .side-banner {
+  padding: 20px;
+}
+#content-2 .banner-2 .side-banner h3 {
+  font-size: 33px;
+  margin-bottom: 25px;
+}
+#content-2 .banner-2 .side-banner p {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
 .section-sc {
   width: 65%;
   margin: 0 auto;

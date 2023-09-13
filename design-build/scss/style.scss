@@ -37,9 +37,12 @@
 #content-2 {
   display: flex;
   flex-direction: column;
+ 
+
 
   .banner-1 {
     background-color: rgb(255, 255, 234);
+    margin:60px 0;
 
     .top {
       h1 {
@@ -82,8 +85,31 @@
 
 
   .banner-2{
-    // display: grid;
-    // grid-template-columns: 3fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   padding: 80px 60px 50px 0px;
+
+    
+
+    .img2{
+      width: 70%;
+      img{
+        width: 100%;
+      }
+    }
+
+    .side-banner{
+      padding: 20px;
+      h3{
+        font-size: 33px;
+        margin-bottom: 25px;
+      }
+
+      p{
+        font-size: 25px;
+        margin-bottom: 35px;
+      }
+    }
   }
 }
 

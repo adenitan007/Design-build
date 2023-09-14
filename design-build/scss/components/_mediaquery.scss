@@ -1,13 +1,15 @@
-@media (max-width: 799px) {
- .nav-container{
-  display: none;
- }
+@media screen and (max-width: 768px) {
+  /* Add your CSS rules for tablets and larger screens here */
+
+  .nav-container {
+    display: none !important;
+  }
+
+  .section-sc {
+    width: 100%;
+  }
 }
 
-
-
-
-
-@media (max-width: 477px) {
- 
+@media screen and (max-width: 1024px) {
+  /* Add your CSS rules for small desktops and larger screens here */
 }
